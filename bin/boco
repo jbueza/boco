@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+
+var boco = require('../index');
+
+if (process.argv[2] === undefined) {
+  console.log('Usage: boco mysite/images:mysite/data/flags.json');
+  process.exit();
+}
+
+boco(process.argv[2], function (err, data) {
+  if (err) {
+    console.error("Unable to generate JSON hash map of images at target directory.");
+  } else {
+    console.log("Successfully generated ", data.images.length, " images.");
+  }
+});

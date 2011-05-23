@@ -1,0 +1,11 @@
+{
+    "name": "boco"
+  , "version": "0.0.1"
+  , "description": "Base64 Encoding Tool for Performance-Focused Mobile Web Development Workflow"
+  , "keywords": []
+  , "author": "Jaime Bueza <jbueza@gmail.com"
+  , "dependencies": {}
+  , "bin": { "boco" : "./bin/boco" }
+  , "main": "index"
+  , "engines": { "node": "0.4.x" }
+}
