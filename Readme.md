@@ -7,10 +7,15 @@
 
 * To easily provide a way of creating json hash maps of base64 encoded assets 
 * To improve mobile web performance by reducing image http requests to 1 json request
+* (Future) To improve the use of base64 encoded strings in development workflows as a tool instead of relying on service (Cid)
 
 ## Installation
 
-<pre>npm install boco</pre>
+<pre>git clone git@github.com:jbueza/boco.git && npm link</pre>
+
+## Usage
+
+<pre>boco mysite/images:mysite/data/flags.json</pre>
 
 ## License 
 

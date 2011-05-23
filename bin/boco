@@ -11,6 +11,6 @@ boco(process.argv[2], function (err, data) {
   if (err) {
     console.error("Unable to generate JSON hash map of images at target directory.");
   } else {
-    console.log("Successfully generated ", data.images.length, " images.");
+    console.log("WARK! Successfully generated ", data.images.length, " images.");
   }
 });

@@ -1,7 +1,6 @@
 var path   = require('path'),
     sys    = require('sys'),
-    fs     = require('fs'),
-    events = require('events');
+    fs     = require('fs');
     
     
 /*!
