@@ -21,7 +21,8 @@ Run as command line:
 
 <pre>boco mysite/images:mysite/data/flags.json</pre>
 
-Reference the generated h
+Reference the generated json hash map by including it as a script.
+
 <pre>
   &lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==&quot; alt=&quot;Red dot&quot; /&gt;
 </pre>
