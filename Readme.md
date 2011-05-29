@@ -1,6 +1,6 @@
 # boco
 
-  Base64 Encoding Tool for Performance-Focused Mobile Web Development Workflow
+  Base64 Encoding Tool for Performance-Focused Mobile Web Development Workflow. More fun with [Data URI scheme](http://en.wikipedia.org/wiki/Data_URI_scheme).
   
 ## Objectives
 
@@ -16,6 +16,10 @@
 ## Usage
 
 <pre>boco mysite/images:mysite/data/flags.json</pre>
+
+<pre>
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
+</pre>
 
 ## Output
 
