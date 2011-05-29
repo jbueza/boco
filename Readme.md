@@ -1,10 +1,11 @@
 # boco
 
-  Base64 Encoding Tool for Performance-Focused Mobile Web Development Workflow. More fun with [Data URI scheme](http://en.wikipedia.org/wiki/Data_URI_scheme).
+Base64 Encoding Tool for Performance-Focused Mobile Web Development Workflow. More fun with [Data URI scheme](http://en.wikipedia.org/wiki/Data_URI_scheme).
+  
+Inspired by [Silo by James Mickens](http://0-portal.acm.org.millennium.lib.cyut.edu.tw/citation.cfm?id=1863175)
   
 ## Objectives
 
-* Inspired by [Silo by James Mickens](http://0-portal.acm.org.millennium.lib.cyut.edu.tw/citation.cfm?id=1863175)
 * To easily provide a way of creating json hash maps of base64 encoded assets 
 * To improve mobile web performance by reducing image http requests to 1 json request
 * (Future) To improve the use of base64 encoded strings in development workflows as a tool instead of relying on service (Cid)
