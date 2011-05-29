@@ -7,6 +7,7 @@
 * To easily provide a way of creating json hash maps of base64 encoded assets 
 * To improve mobile web performance by reducing image http requests to 1 json request
 * (Future) To improve the use of base64 encoded strings in development workflows as a tool instead of relying on service (Cid)
+* (Future) Add the ability to watch assets folders and automatically rebuild the JSON hashmaps
 
 ## Installation
 
