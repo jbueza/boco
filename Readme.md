@@ -4,6 +4,7 @@
   
 ## Objectives
 
+* Inspired by [Silo by James Mickens](http://0-portal.acm.org.millennium.lib.cyut.edu.tw/citation.cfm?id=1863175)
 * To easily provide a way of creating json hash maps of base64 encoded assets 
 * To improve mobile web performance by reducing image http requests to 1 json request
 * (Future) To improve the use of base64 encoded strings in development workflows as a tool instead of relying on service (Cid)
@@ -15,10 +16,13 @@
 
 ## Usage
 
+Run as command line:
+
 <pre>boco mysite/images:mysite/data/flags.json</pre>
 
+Reference the generated h
 <pre>
-  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
+  &lt;img src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==&quot; alt=&quot;Red dot&quot; /&gt;
 </pre>
 
 ## Output
