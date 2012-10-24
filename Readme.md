@@ -19,7 +19,9 @@ Inspired by [Silo by James Mickens](http://0-portal.acm.org.millennium.lib.cyut.
 
 Run as command line:
 
-<pre>boco mysite/images:mysite/data/flags.json</pre>
+```
+boco mysite/images:mysite/data/flags.json
+```
 
 Reference the generated json hash map by including it as a script.
 
